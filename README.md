@@ -51,7 +51,7 @@ pip install beautifulsoup4 pytest
 
 Basic usage:
 ```bash
-python html_case_corrector.py [directory_path]
+python html_filename_change.py [directory_path]
 ```
 
 If no directory is specified, the current directory will be processed.
@@ -60,7 +60,7 @@ If no directory is specified, the current directory will be processed.
 
 ```python
 from pathlib import Path
-from html_case_corrector import process_directory
+from html_filename_change import process_directory
 
 # Process a specific directory
 process_directory(Path("/path/to/your/web/files"))
